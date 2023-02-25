@@ -21,7 +21,7 @@ const Navbar = ({ siteTitle }) => {
         </button>
 
         <div className="collapse navbar-collapse" id="main-navbar">
-          <ul className="navbar-nav me-auto mb-2 mb-md-0">
+          <ul className="navbar-nav me-auto mr-auto mb-2 mb-md-0">
             <li className="nav-item">
               <ExactNavLink
                 to="/"
@@ -34,6 +34,16 @@ const Navbar = ({ siteTitle }) => {
                 to="/about"
               >
                 About
+              </ExactNavLink>
+            </li>
+          </ul>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <ExactNavLink
+                to="https://discord.gg/Mes3nP3mZt"
+                className="btn btn-primary my-2"
+              >
+                Join Community
               </ExactNavLink>
             </li>
           </ul>
