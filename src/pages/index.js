@@ -13,7 +13,7 @@ const IndexPage = () => (
     <div class="carousel-item active">
     <StaticImage
             src="../img/VRChat_2023-01-05_23-57-23.172_1920x1080.png"
-            width={300}
+            width={1920}
             quality={95}
             formats={["AUTO", "WEBP"]}
             alt=""
@@ -23,7 +23,7 @@ const IndexPage = () => (
     <div class="carousel-item">
     <StaticImage
             src="../img/VRChat_2023-01-05_23-57-23.172_1920x1080.png"
-            width={300}
+            width={1920}
             quality={95}
             formats={["AUTO", "WEBP"]}
             alt=""
@@ -33,7 +33,7 @@ const IndexPage = () => (
     <div class="carousel-item">
       <StaticImage
             src="../img/VRChat_2023-01-05_23-57-23.172_1920x1080.png"
-            width={300}
+            width={1920}
             quality={95}
             formats={["AUTO", "WEBP"]}
             alt=""
@@ -59,7 +59,7 @@ const IndexPage = () => (
           <StaticImage
             src="../images/gatsby-astronaut.png"
             width={300}
-            quality={95}
+            quality={100}
             formats={["AUTO", "WEBP"]}
             alt="A Gatsby astronaut"
             className="img-fluid"
