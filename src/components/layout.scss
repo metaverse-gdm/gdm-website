@@ -2,24 +2,3 @@
 $primary: #663399;
 @import "~bootstrap/scss/bootstrap";
 
-
-
-.l-footer {
-	background-color: $color-black;
-	color: $color-base;
-
-	&__content {
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-end;
-		padding: 30px 0;
-	}
-	&__lists {
-		display: flex;
-		gap: 10px;
-		padding: 0 0 30px;
-		a {
-			color: $color-base;
-		}
-	}
-}

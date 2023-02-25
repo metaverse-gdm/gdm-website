@@ -72,18 +72,9 @@ const IndexPage = () => (
         <Link to="/page-2/" className="btn btn-secondary my-2">Go to page 2</Link>
       </div>
     </section>
-    <footer class="l-footer">
-      <div class="c-inner">
-        <div class="l-footer__content">
-          <ul class="l-footer__lists">
-            <li><a href="#">運営会社</a></li>
-            <li>
-              <a href="#"
-                >お問い合わせ</a>
-            </li>
-          </ul>
-          <small>&copy;yurukei20</small>
-        </div>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">{siteTitle}</span>
       </div>
     </footer>
   </Layout>
