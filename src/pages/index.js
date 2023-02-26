@@ -69,7 +69,7 @@ const IndexPage = () => (
                     <div class="card flex-row">
                         <StaticImage
                             src="../images/gatsby-astronaut.png"
-                            width={300}
+                            width={50}
                             quality={100}
                             formats={["AUTO", "WEBP"]}
                             alt="A Gatsby astronaut"
