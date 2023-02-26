@@ -11,13 +11,12 @@ const SecondPage = () => (
       <p>Welcome to page 2</p>
       <Link to="/">Go back to the homepage</Link>
     </div>
-    # Apple
-    ## Test
   </Layout>
 )
 
 export default SecondPage
 
 export const Head = () => (
-    <Seo title="Page two" />
+    // <Seo title="Page two" />
+    <Seo />
 )
