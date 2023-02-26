@@ -17,7 +17,7 @@ const AboutPage = () => (
                 <div class="event-list">
                     <div class="card flex-row">
                         <StaticImage
-                            src="../images/gatsby-astronaut.png"
+                            src="../img/file.png"
                             width={50}
                             quality={100}
                             formats={["AUTO", "WEBP"]}
@@ -25,8 +25,9 @@ const AboutPage = () => (
                             className="card-img-left img-fluid"
                         />
                         <div class="card-body">
-                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>February 26, 2023</span><i class="fas fa-caret-right" aria-hidden="true"></i><span>12:00 AM - 11:59 PM</span> </h4>
-                            <p class="card-text">The site is now open!</p>
+                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>Thursday, March 2, 2023</span>
+                            <i class="fas fa-caret-right" aria-hidden="true"></i><span>21:00 PM JST - 22:00 PM JST</span> </h4>
+                            <p class="card-text">The 0th Game Developers Meeting</p>
                         </div>
                     </div>
                 </div>
