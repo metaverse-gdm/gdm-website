@@ -56,17 +56,35 @@ const IndexPage = () => (
         <div className="col-lg-6 col-md-8 mx-auto">
           <h1 className="fw-light">Hello world ! </h1>
           <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p>
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={100}
-            formats={["AUTO", "WEBP"]}
-            alt="A Gatsby astronaut"
-            className="img-fluid"
-          />
+
 
         </div>
       </div>
+      <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 d-flex justify-content-center right-bck">
+            <div class="registration-right">
+                <h2>Our News</h2>
+                <div class="event-list">
+                    <div class="card flex-row">
+                        <StaticImage
+                            src="../images/gatsby-astronaut.png"
+                            width={300}
+                            quality={100}
+                            formats={["AUTO", "WEBP"]}
+                            alt="A Gatsby astronaut"
+                            className="card-img-left img-fluid"
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>February 26, 2023</span><i class="fas fa-caret-right" aria-hidden="true"></i><span>12:00 AM - 11:59 PM</span> </h4>
+                            <p class="card-text">The site is now open!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
       <div className="row">
         <Link to="/about/" className="btn btn-primary my-2">About</Link>
         <Link to="/page-2/" className="btn btn-secondary my-2">Go to page 2</Link>

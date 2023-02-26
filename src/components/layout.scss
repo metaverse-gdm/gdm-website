@@ -2,3 +2,78 @@
 $primary: #663399;
 @import "~bootstrap/scss/bootstrap";
 
+$color_1: #ffffff;
+$color_2: #c0bfc9;
+$font-family_1: "Font Awesome 5 Free";
+$background-color_1: #231833;
+$background-color_2: #30263f;
+
+.right-bck {
+	background-color: $background-color_1;
+}
+.registration-right {
+	width: 80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	h2 {
+		color: $color_1;
+		font-weight: 700;
+		padding-bottom: 20px;
+	}
+}
+.registration {
+	.btn {
+		width: 100%;
+	}
+}
+.fa {
+	font-family: $font-family_1;
+	font-weight: 900;
+}
+.fas {
+	font-family: $font-family_1;
+	font-weight: 900;
+}
+.fab {
+	font-family: $font-family_1;
+	font-weight: 900;
+}
+.far {
+	font-family: $font-family_1;
+	font-weight: 400;
+}
+.event-list {
+	.card {
+		background-color: $background-color_2;
+		padding: 18px;
+		margin-bottom: 3px;
+	}
+	img {
+		width: 77px;
+		height: 77px;
+	}
+	h4 {
+		color: $color_2;
+		font-size: 16px;
+	}
+	.card-title {
+		span {
+			padding-left: 5px;
+			padding-right: 20px;
+			font-size: 12px;
+			font-weight: 700;
+		}
+		svg {
+			color: $color_1;
+		}
+	}
+	.card-text {
+		color: $color_1;
+		font-weight: 700;
+		font-size: 16px;
+	}
+	.card-body {
+		padding: 0 20px;
+		margin: 0 0 10px 0;
+	}
+}
