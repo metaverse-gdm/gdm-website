@@ -60,11 +60,12 @@ const IndexPage = () => (
 
         </div>
       </div>
+      <section className="py-5 container">
       <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 d-flex justify-content-center right-bck">
             <div class="registration-right">
-                <h2>Our News</h2>
+                <h2 className="text-center">Our News</h2>
                 <div class="event-list">
                     <div class="card flex-row">
                         <StaticImage
@@ -84,7 +85,8 @@ const IndexPage = () => (
             </div>
         </div>
     </div>
-</div>
+</div></section>
+<section className="py-5 text-center container">
       <div className="row">
         <Link to="/about/" className="btn btn-primary my-2">About</Link>
         <Link to="/page-2/" className="btn btn-secondary my-2">Go to page 2</Link>
