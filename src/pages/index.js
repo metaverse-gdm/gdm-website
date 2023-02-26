@@ -59,7 +59,7 @@ const IndexPage = () => (
 
 
         </div>
-      </div>
+      </div></section>
       <section className="py-5 container">
       <div class="container-fluid">
     <div class="row">
