@@ -7,7 +7,7 @@ import { Seo } from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <main>
+    {/* <main>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -50,12 +50,41 @@ const IndexPage = () => (
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    </main>
+    </main> */}
+
+<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 ">Title of a longer featured blog post</h1>
+      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+    </div>
+  </div>
     <section className="py-5 text-center container">
       <div className="row py-lg-5">
         <div className="col-lg-6 col-md-8 mx-auto">
-          <h1 className="fw-light">Hello world ! </h1>
-          <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p>
+          {/* <h1 className="fw-light">Hello world ! </h1>
+          <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p> */}
+
+<div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Update</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-muted">Thursday, March 2, 2023</div>
+          <p class="card-text mb-auto">WebSite Update!</p>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <StaticImage
+                            src="../img/file.png"
+                            width={200}
+                            quality={100}
+                            formats={["AUTO", "WEBP"]}
+                            alt="A Gatsby astronaut"
+                            className="bd-placeholder-img"
+                        />
+        </div>
+      </div>
+    </div>
 
 
         </div>
