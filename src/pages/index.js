@@ -75,7 +75,7 @@ const IndexPage = () => (
         </div>
         <div class="col-auto d-none d-lg-block">
           <StaticImage
-                            src="../img/file.png"
+                            src="../img/da05c88e588ebe9fe281456e0238f6f1.webp"
                             width={200}
                             quality={100}
                             formats={["AUTO", "WEBP"]}
