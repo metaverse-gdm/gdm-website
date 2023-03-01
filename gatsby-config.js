@@ -41,14 +41,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        gatsbyRemarkPlugins: [
-          // 他にRemarkプラグインがある場合はここに追加していく
-        ],
-      },
-    },
     
     `gatsby-plugin-gatsby-cloud`,
   ],
