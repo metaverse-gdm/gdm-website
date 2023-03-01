@@ -52,18 +52,22 @@ const IndexPage = () => (
 </div>
     </main> */}
 
-<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+<div class="p-4 p-md-5 mb-4 text-white  bg-dark">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 ">Title of a longer featured blog post</h1>
-      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+      <h1 class="display-4 ">Welcome to Game Development Meetup!</h1>
+      {/* <p class="lead my-3"></p> */}
     </div>
   </div>
     <section className="py-5 text-center container">
       <div className="row py-lg-5">
         <div className="col-lg-6 col-md-8 mx-auto">
-          {/* <h1 className="fw-light">Hello world ! </h1>
-          <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p> */}
+          <h1 className="fw-light">About us </h1>
+          <p className="lead text-muted"> Not interested in playing games? 
+          That`s perfectly fine! This will be a great place for you to speak English, mingle and meet new creative people and business professionals in the Metaverse. Also, 
+          if you happen to be a creative person ( Indie Game Developer, artist, musician, etc.), 
+          this event will be the perfect place for you to introduce and showcase your own original concepts.
+           Show us what you`re making so that we can give you some good ideas and support your works.
+           Either way, you can expect a very fun & exciting time! :)</p>
 
 <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
