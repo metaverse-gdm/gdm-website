@@ -23,12 +23,12 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: process.env.spaceId,
-        accessToken: process.env.accessToken,},
-      },
+    // {
+    //   resolve: `gatsby-source-contentful`,
+    //   options: {
+    //     spaceId: process.env.spaceId,
+    //     accessToken: process.env.accessToken,},
+    //   },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
