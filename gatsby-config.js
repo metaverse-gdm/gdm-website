@@ -24,6 +24,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.spaceId,
+        accessToken: process.env.accessToken,},
+      },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-bootstrap-5`,
@@ -35,6 +41,19 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          // 他にRemarkプラグインがある場合はここに追加していく
+        ],
+      },
+    },
+    
     `gatsby-plugin-gatsby-cloud`,
   ],
 }
+
+module.exports = {
+  plugins: ['gatsby-plugin-fabric-ui'],
+};
