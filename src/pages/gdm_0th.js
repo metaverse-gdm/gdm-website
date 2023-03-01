@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
 
@@ -10,6 +10,14 @@ const AboutPage = () => (
 
       <div className="container">
         <h3 >メタバースイベント「『The 0th Game Developers Meeting」が2023年3月2日 木曜日 21:00に開催決定！</h3>
+        <StaticImage
+                            src="../img/da05c88e588ebe9fe281456e0238f6f1.webp"
+                            width={1920}
+                            quality={100}
+                            formats={["AUTO", "WEBP"]}
+                            alt="A Gatsby astronaut"
+                            className="card-img-left img-fluid"
+                        />
         <p>
         『The 0th Game Developers Meeting』Metaverse Meetupの開催が決定！
         3月2日21時よりメタバース空間を舞台に、開発者のトークセッションやVIVERSEとの取り組みの最新情報を発信予定。<br></br>
