@@ -53,7 +53,3 @@ module.exports = {
     `gatsby-plugin-gatsby-cloud`,
   ],
 }
-
-module.exports = {
-  plugins: ['gatsby-plugin-fabric-ui'],
-};
