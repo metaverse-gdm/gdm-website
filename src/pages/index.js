@@ -53,14 +53,14 @@ const IndexPage = () => (
     </main> */}
 
 <div class="p-4 p-md-5 mb-4 text-white  bg-dark">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 ">Welcome to Game Development Meetup!</h1>
+    <div class="px-0">
+      <h1 class="display-4">Welcome to Game Development Meetup!</h1>
       {/* <p class="lead my-3"></p> */}
     </div>
   </div>
     <section className="py-5 text-center container">
       <div className="row py-lg-5">
-        <div className="col-lg-6 col-md-8 mx-auto">
+        <div className="mx-auto">
           <h1 className="fw-light">About us </h1>
           <p className="lead text-muted"> Not interested in playing games? 
           That`s perfectly fine! This will be a great place for you to speak English, mingle and meet new creative people and business professionals in the Metaverse. Also, 
@@ -68,29 +68,6 @@ const IndexPage = () => (
           this event will be the perfect place for you to introduce and showcase your own original concepts.
            Show us what you`re making so that we can give you some good ideas and support your works.
            Either way, you can expect a very fun & exciting time! :)</p>
-
-<div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">Update</strong>
-          <h3 class="mb-0">Featured post</h3>
-          <div class="mb-1 text-muted">Thursday, March 2, 2023</div>
-          <p class="card-text mb-auto">WebSite Update!</p>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <StaticImage
-                            src="../img/da05c88e588ebe9fe281456e0238f6f1.webp"
-                            width={200}
-                            quality={100}
-                            formats={["AUTO", "WEBP"]}
-                            alt="A Gatsby astronaut"
-                            className="bd-placeholder-img"
-                        />
-        </div>
-      </div>
-    </div>
-
-
         </div>
       </div></section>
       <section className="py-5 container">
