@@ -7,12 +7,12 @@ import { Seo } from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    {/* <main>
+    <main>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
     <StaticImage
-            src="../img/VRChat_2023-01-05_23-57-23.172_1920x1080.png"
+            src="../img/VRChat_2023-03-08_22-05-35.111_1920x1080.png"
             width={1920}
             quality={95}
             formats={["AUTO", "WEBP"]}
@@ -22,7 +22,7 @@ const IndexPage = () => (
     </div>
     <div class="carousel-item">
     <StaticImage
-            src="../img/VRChat_2023-01-05_23-57-23.172_1920x1080.png"
+            src="../img/VRChat_2023-03-08_22-36-17.002_1920x1080.png"
             width={1920}
             quality={95}
             formats={["AUTO", "WEBP"]}
@@ -32,7 +32,17 @@ const IndexPage = () => (
     </div>
     <div class="carousel-item">
       <StaticImage
-            src="../img/VRChat_2023-01-05_23-57-23.172_1920x1080.png"
+            src="../img/VRChat_2023-03-08_21-44-20.205_1920x1080.png"
+            width={1920}
+            quality={95}
+            formats={["AUTO", "WEBP"]}
+            alt=""
+            className="d-block w-100"
+          />
+    </div>
+    <div class="carousel-item">
+      <StaticImage
+            src="../img/VRChat_2023-03-08_21-05-00.184_1920x1080.png"
             width={1920}
             quality={95}
             formats={["AUTO", "WEBP"]}
@@ -50,7 +60,7 @@ const IndexPage = () => (
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    </main> */}
+    </main>
 
 <div class="p-4 p-md-5 mb-4 text-white  bg-dark">
     <div class="px-0">
@@ -87,9 +97,9 @@ const IndexPage = () => (
                             className="card-img-left img-fluid"
                         />
                             <div class="card-body">
-                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>Thursday, March 2, 2023</span>
+                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>Thursday, March 15, 2023</span>
                             <i class="fas fa-caret-right" aria-hidden="true"></i><span>21:00 PM JST - 22:00 PM JST</span> </h4>
-                            <p class="card-text"><a href="gdm_0th">The 0th Game Developers Meeting</a></p>
+                            <p class="card-text"><a href="gdm_0th">The 2nd Game Developers Meeting</a></p>
                         </div>
                     </div>
                 </div>
