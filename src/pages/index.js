@@ -22,6 +22,17 @@ const IndexPage = () => (
     </div>
     <div class="carousel-item">
     <StaticImage
+            src="../img/VRChat_2023-03-22_22-03-47.136_1920x1080.png"
+            width={1920}
+            quality={95}
+            formats={["AUTO", "WEBP"]}
+            alt=""
+            className="d-block w-100"
+          />
+    </div>
+    
+    <div class="carousel-item">
+    <StaticImage
             src="../img/VRChat_2023-03-15_22-14-10.137_1920x1080.png"
             width={1920}
             quality={95}
@@ -120,9 +131,9 @@ const IndexPage = () => (
                             className="card-img-left img-fluid"
                         />
                             <div class="card-body">
-                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>Thursday, March 22, 2023</span>
+                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>Thursday, March ２９, 2023</span>
                             <i class="fas fa-caret-right" aria-hidden="true"></i><span>21:00 PM JST - 22:00 PM JST</span> </h4>
-                            <p class="card-text"><a href="gdm_0th">The 3rd Game Developers Meeting</a></p>
+                            <p class="card-text"><a href="gdm_0th">The 4th Game Developers Meeting</a></p>
                         </div>
                     </div>
                 </div>
