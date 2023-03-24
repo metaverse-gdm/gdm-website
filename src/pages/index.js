@@ -31,6 +31,7 @@ const IndexPage = () => (
             className="d-block w-100"
           />
     </div>
+    <div class="carousel-item">
     <StaticImage
             src="../img/VRChat_2023-03-22_23-09-06.857_1920x1080.png"
             width={1920}
@@ -50,8 +51,6 @@ const IndexPage = () => (
             className="d-block w-100"
           />
     </div>
-
-    <div class="carousel-item">
 
     <div class="carousel-item">
     <StaticImage
