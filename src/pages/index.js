@@ -10,7 +10,18 @@ const IndexPage = () => (
     <main>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-  <div class="carousel-item active">
+
+    <div class="carousel-item active">
+    <StaticImage
+            src="../img/VRChat_2023-03-22_23-10-56.595_1920x1080.png"
+            width={1920}
+            quality={95}
+            formats={["AUTO", "WEBP"]}
+            alt=""
+            className="d-block w-100"
+          />
+    </div>
+    <div class="carousel-item">
     <StaticImage
             src="../img/VRChat_2023-03-22_23-13-30.630_1920x1080.png"
             width={1920}
@@ -20,6 +31,28 @@ const IndexPage = () => (
             className="d-block w-100"
           />
     </div>
+    <StaticImage
+            src="../img/VRChat_2023-03-22_23-09-06.857_1920x1080.png"
+            width={1920}
+            quality={95}
+            formats={["AUTO", "WEBP"]}
+            alt=""
+            className="d-block w-100"
+          />
+    </div>
+    <div class="carousel-item">
+    <StaticImage
+            src="../img/VRChat_2023-03-22_23-17-31.014_1920x1080.png"
+            width={1920}
+            quality={95}
+            formats={["AUTO", "WEBP"]}
+            alt=""
+            className="d-block w-100"
+          />
+    </div>
+
+    <div class="carousel-item">
+
     <div class="carousel-item">
     <StaticImage
             src="../img/VRChat_2023-03-15_21-37-51.766_3840x2160.png"
