@@ -24,6 +24,36 @@ const AboutPage = () => (
                             alt="A Gatsby astronaut"
                             className="card-img-left img-fluid"
                         />
+                            <div class="card-body">
+                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>Thursday, April 12, 2023</span>
+                            <i class="fas fa-caret-right" aria-hidden="true"></i><span>21:00 PM JST - 22:00 PM JST</span> </h4>
+                            <p class="card-text"><a href="gdm_0th">The 6th Game Developers Meeting</a></p>
+                        </div>
+                    </div>
+                    <div class="card flex-row">
+                        <StaticImage
+                            src="../img/file.png"
+                            width={50}
+                            quality={100}
+                            formats={["AUTO", "WEBP"]}
+                            alt="A Gatsby astronaut"
+                            className="card-img-left img-fluid"
+                        />
+                            <div class="card-body">
+                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>Thursday, April 5, 2023</span>
+                            <i class="fas fa-caret-right" aria-hidden="true"></i><span>21:00 PM JST - 22:00 PM JST</span> </h4>
+                            <p class="card-text"><a href="gdm_0th">The 5th Game Developers Meeting</a></p>
+                        </div>
+                    </div>
+                <div class="card flex-row">
+                        <StaticImage
+                            src="../img/file.png"
+                            width={50}
+                            quality={100}
+                            formats={["AUTO", "WEBP"]}
+                            alt="A Gatsby astronaut"
+                            className="card-img-left img-fluid"
+                        />
                         <div class="card-body">
                             <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>Thursday, March 29, 2023</span>
                             <i class="fas fa-caret-right" aria-hidden="true"></i><span>21:00 PM JST - 22:00 PM JST</span> </h4>
