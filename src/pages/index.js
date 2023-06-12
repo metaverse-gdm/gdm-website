@@ -11,7 +11,17 @@ const IndexPage = () => (
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
 
-    <div class="carousel-item active">
+      <div class="carousel-item active">
+    <StaticImage
+            src="https://user-images.githubusercontent.com/38463346/241098806-88b44821-b8ed-4d17-b85e-be7b4600b607.png"
+            width={1920}
+            quality={95}
+            formats={["AUTO", "WEBP"]}
+            alt=""
+            className="d-block w-100"
+          />
+    </div>
+    <div class="carousel-item">
     <StaticImage
             src="../img/VRChat_2023-03-22_23-10-56.595_1920x1080.png"
             width={1920}
