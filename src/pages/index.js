@@ -13,7 +13,7 @@ const IndexPage = () => (
 
       <div class="carousel-item active">
     <StaticImage
-            src="https://user-images.githubusercontent.com/38463346/241098806-88b44821-b8ed-4d17-b85e-be7b4600b607.png"
+            src="../img/241098806-88b44821-b8ed-4d17-b85e-be7b4600b607.png"
             width={1920}
             quality={95}
             formats={["AUTO", "WEBP"]}
