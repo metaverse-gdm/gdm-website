@@ -167,7 +167,7 @@ const IndexPage = () => (
            Either way, you can expect a very fun & exciting time! :)</p>
         </div>
       </div></section> */}
-      <section className="py-5 container">
+      {/* <section className="py-5 container">
       <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 d-flex justify-content-center right-bck">
@@ -193,7 +193,7 @@ const IndexPage = () => (
             </div>
         </div>
     </div>
-</div></section>
+</div></section> */}
 {/* <section className="py-5 text-center container">
       <div className="row">
         <Link to="/about/" className="btn btn-primary my-2">About</Link>
