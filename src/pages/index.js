@@ -155,7 +155,7 @@ const IndexPage = () => (
       {/* <p class="lead my-3"></p> */}
     </div>
   </div>
-    {/* <section className="py-5 text-center container">
+    <section className="py-5 text-center container">
       <div className="row py-lg-5">
         <div className="mx-auto">
           <h1 className="fw-light">About us </h1>
@@ -166,34 +166,30 @@ const IndexPage = () => (
            Show us what you`re making so that we can give you some good ideas and support your works.
            Either way, you can expect a very fun & exciting time! :)</p>
         </div>
-      </div></section> */}
-      {/* <section className="py-5 container">
-      <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12 d-flex justify-content-center right-bck">
-            <div class="registration-right">
-                <h2 className="text-center">Event</h2>
-                <div class="event-list">
-                    <div class="card flex-row">
-                        <StaticImage
-                            src="../img/file.png"
-                            width={50}
-                            quality={100}
-                            formats={["AUTO", "WEBP"]}
-                            alt="A Gatsby astronaut"
-                            className="card-img-left img-fluid"
-                        />
-                            <div class="card-body">
-                            <h4 class="card-title h5 h4-sm"><i class="fas fa-caret-right" aria-hidden="true"></i><span>Thursday, April 12, 2023</span>
-                            <i class="fas fa-caret-right" aria-hidden="true"></i><span>21:00 PM JST - 22:00 PM JST</span> </h4>
-                            <p class="card-text"><a href="gdm_0th">The 6th Game Developers Meeting</a></p>
-                        </div>
-                    </div>
-                </div>
+      </div></section>
+      <section className="py-5 container">
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <StaticImage
+            src="../img/9f219e3e-faa4-4247-80a5-ca381c545aae.jpg"
+            width={1920}
+            quality={95}
+            formats={["AUTO", "WEBP"]}
+            alt=""
+            className="card-img w-100"
+          />
+          </div>
+          <div class="col-lg-6">
+            <div class="card-body">
+              <h4 class="card-title">vrc-ta-hub.booth.pm</h4>
+              <p class="card-text">メタバース（VR SNS）プラットフォームであるVRChat内で開催されている、技術・学術イベントを紹介する一冊です。 IT、工学、化学、歴史、人文など2023年12月現在VRChatで開催されている22の技術・学術イベントを紹介します。 </p>
+              <a href="https://vrc-ta-hub.booth.pm/items/5307031" class="btn btn-primary">サイトへ</a>
             </div>
+          </div>
         </div>
-    </div>
-</div></section> */}
+      </div>
+      </section>
 {/* <section className="py-5 text-center container">
       <div className="row">
         <Link to="/about/" className="btn btn-primary my-2">About</Link>
