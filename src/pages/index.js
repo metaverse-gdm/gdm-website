@@ -182,7 +182,7 @@ const IndexPage = () => (
           </div>
           <div class="col-lg-6">
             <div class="card-body">
-              <h4 class="card-title">vrc-ta-hub.booth.pm</h4>
+              <h4 class="card-title">VRChat 技術・学術イベントガイド</h4>
               <p class="card-text">メタバース（VR SNS）プラットフォームであるVRChat内で開催されている、技術・学術イベントを紹介する一冊です。 IT、工学、化学、歴史、人文など2023年12月現在VRChatで開催されている22の技術・学術イベントを紹介します。 </p>
               <a href="https://vrc-ta-hub.booth.pm/items/5307031" class="btn btn-primary">サイトへ</a>
             </div>
