@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Game Development Meetup`,
+    title: `Game Development Meetup in Metaverse`,
     description: `ゲーム開発者集会へようこそ！近日中にVRChatでイベントを開催予定です`,
     author: `@creatornet`,
   },
