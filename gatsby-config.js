@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Game Development Meetup in Metaverse`,
-    description: `ゲーム開発者集会へようこそ！Not interested in playing games? That`s perfectly fine! This will be a great place for you to speak English, mingle and meet new creative people and business professionals in the Metaverse.`,
+    description: `ゲーム開発者集会へようこそ！`,
     author: `@creatornet`,
   },
   plugins: [
