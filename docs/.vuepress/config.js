@@ -6,7 +6,7 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 
 export default defineUserConfig({
     bundler: viteBundler(),
-    base: '/gdm-website/',
+    base: '/',
     lang: 'ja',
     title: 'Game Development Meetup',
     description: 'ゲーム開發集會へようこそ！',
